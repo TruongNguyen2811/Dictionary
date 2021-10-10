@@ -54,6 +54,11 @@ public class libraryModel {
         this.word = word;
         this.mean = mean;
     }
-
-
+    public libraryModel(String word, String mean, String pronunciation){
+        this.word = word;
+        this.mean = mean;
+        this. pronunciation = pronunciation;
+    }
+    
+    
 }
